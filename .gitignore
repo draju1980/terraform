@@ -3,6 +3,7 @@
 */.terraform./*
 
 # .tfstate files
+**/terraform.tfstate
 .terraform.*
 *.tfstate.*
 
@@ -15,3 +16,5 @@
 # .pem files
 *.pem
 
+# .DS_Store files
+.DS_Store
